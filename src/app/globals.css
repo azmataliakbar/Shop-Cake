@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn1 {
+  box-shadow: 4px 4px 16px rgb(127, 127, 246);
+}
+
+.shop1 {
+  text-shadow: 4px 4px 16px rgb(249, 136, 136);;
+}
+
+.cart1 {
+  text-shadow: 4px 4px 16px rgb(77, 252, 77);
+}
+
+.cart2 {
+  text-shadow: 4px 4px 16px rgb(121, 121, 250);
+}
+
+.cart3 {
+  text-shadow: 4px 4px 16px rgb(247, 121, 121);
+}
+
+.product {
+  text-shadow: 4px 4px 16px rgb(142, 74, 74);
+}
+
+.author {
+  text-shadow: 4px 4px 16px rgb(184, 182, 182);
+}
